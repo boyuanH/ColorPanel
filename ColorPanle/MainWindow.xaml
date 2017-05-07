@@ -5,8 +5,10 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:ColorPanle"
         mc:Ignorable="d"
-        Title="MainWindow" Height="350" Width="525">
+        Title="MainWindow" Height="1100" Width="1500">
     <Grid>
-        
+        <Image x:Name="PanelImage" HorizontalAlignment="Left" Height="1024" Width="1024" Margin="10,10,0,0" VerticalAlignment="Top" />
+        <Button x:Name="DrawBtn" Content="Draw" HorizontalAlignment="Left" Margin="1282,959,0,0" VerticalAlignment="Top" Width="200" Height="100" Click="DrawBtn_Click"/>
+
     </Grid>
 </Window>
